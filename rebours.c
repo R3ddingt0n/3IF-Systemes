@@ -15,5 +15,6 @@ int main(int argc, char** argv)
 		sleep(1);
 		printf("%d: %d\r\n", pid, i);
 	}
+	printf("%d: fin\r\n", pid);
     return 0;
 }
